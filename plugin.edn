@@ -1,0 +1,5 @@
+{:name "Lint"
+ :author "George Endrulat"
+ :source "https://github.com/WebRTCGame/Lighttable-Plugin-JsLint"
+ :desc "http://jslint.com/ integration for Light Table"
+ :behaviors "lint.behaviors"}
