@@ -1,6 +1,2 @@
-{:+ {:app [(:lt.objs.plugins/load-js "lint.js" true)
-           (:lt.objs.plugins/load-keymap "lint.keymap")]
-     :editor.lint [(:lt.object/shadow-tag :editor.keys.normal :editor.keys.normal.lint)]
-     :editor.json [(:lt.object/add-tag :editor.lint)]
-     :editor.coffeescript [(:lt.object/add-tag :editor.lint)]
-     :editor.css [(:lt.object/add-tag :editor.lint)]
+{:+ {:app [(:lt.objs.plugins/load-js "lint.js")]
+     :editor.javascript [:lt.plugins.lint/lint]}}
